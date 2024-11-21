@@ -1,4 +1,20 @@
 #tentang {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
+
+@media (max-width: 576px) {
+    #tentang img {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
